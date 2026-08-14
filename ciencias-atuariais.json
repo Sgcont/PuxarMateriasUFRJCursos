@@ -1,0 +1,143 @@
+{
+  "id": "ciencias-atuariais",
+  "nome": "Ciências Atuariais",
+  "instituicao": "Instituto de Matemática - UFRJ",
+  "fonte": "SIGA UFRJ - Distribuição Curricular (atualizado 27/02/2025)",
+  "observacao": "Requisitos do tipo P = pré-requisito (precisa ter sido aprovado antes). C = co-requisito (pode ser cursado junto). Quando o código exigido não existe neste currículo, as opções abaixo dele são as equivalências aceitas pelo SIGA — geralmente uma delas é a disciplina real deste curso.",
+  "disciplinas": [
+    { "codigo": "ICP121", "nome": "Computação I", "periodo": 1, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [] },
+    { "codigo": "MAC106", "nome": "Álgebra Linear I", "periodo": 1, "creditos": 3.0, "cht": 30, "chp": 15, "che": 0, "requisitos": [] },
+    { "codigo": "MAC118", "nome": "Cálculo Diferencial e Integral I", "periodo": 1, "creditos": 6.0, "cht": 90, "chp": 0, "che": 0, "requisitos": [] },
+    { "codigo": "MAD114", "nome": "Análise Exploratória de Dados", "periodo": 1, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [] },
+
+    { "codigo": "FIW123", "nome": "Elementos de Física", "periodo": 2, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [] },
+    { "codigo": "MAA114", "nome": "Álgebra I", "periodo": 2, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [] },
+    { "codigo": "MAC123", "nome": "Cálculo II", "periodo": 2, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAC113", "opcoes": [["MAW111","MAW121"], ["MAC118"], ["MAE111"], ["MAC114"]] }
+    ]},
+    { "codigo": "MAD124", "nome": "Introdução à Estatística", "periodo": 2, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [] },
+    { "codigo": "MAE125", "nome": "Álgebra Linear", "periodo": 2, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [] },
+
+    { "codigo": "ICP231", "nome": "Cálculo Numérico", "periodo": 3, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "ICP121", "opcoes": [["COC471"], ["MAB121"], ["MAB124"], ["MAW112"], ["ICP124"], ["EEL170"], ["MAB246"], ["ICP120"], ["ICP114"], ["MAB114"], ["MAB120"]] },
+      { "tipo": "P", "alvo": "MAC128", "opcoes": [["MAE123"], ["MAW116","MAW231"], ["MAW231"], ["MAW112","MAW231"], ["MAE992"], ["MAC123"], ["MAE121"], ["MAC124"]] }
+    ]},
+    { "codigo": "ICP241", "nome": "Computação II", "periodo": 3, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "ICP121", "opcoes": [["MAB120"], ["ICP124"], ["MAB124"], ["MAB246"], ["MAW112"], ["MAB121"], ["ICP114"], ["ICP120"]] }
+    ]},
+    { "codigo": "MAC233", "nome": "Cálculo III", "periodo": 3, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAC123", "opcoes": [["XMT123"], ["MAE121"], ["MAC124"], ["MAC128"], ["MAW116","MAW231"]] }
+    ]},
+    { "codigo": "MAD233", "nome": "Cálculo das Probabilidades I", "periodo": 3, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "C", "alvo": "MAC128", "opcoes": [["MAE123"], ["MAW231"], ["MAE121"], ["MAC124"], ["MAC123"]] }
+    ]},
+    { "codigo": "MAD236", "nome": "Seminário de Ciências Atuariais e Estatística", "periodo": 3, "creditos": 1.0, "cht": 0, "chp": 30, "che": 0, "requisitos": [] },
+    { "codigo": "MAE127", "nome": "Equações Diferenciais", "periodo": 3, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAC123", "opcoes": [["XMT123"], ["MAW116","MAW126"], ["MAC128"], ["MAE121"]] },
+      { "tipo": "P", "alvo": "MAE125", "opcoes": [["MAA122"]] }
+    ]},
+
+    { "codigo": "MAA240", "nome": "Análise I", "periodo": 4, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAA116", "opcoes": [["MAA114"]] },
+      { "tipo": "P", "alvo": "MAC118", "opcoes": [] }
+    ]},
+    { "codigo": "MAD351", "nome": "Inferência Estatística I", "periodo": 4, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD233", "opcoes": [] }
+    ]},
+    { "codigo": "MAD352", "nome": "Cálculo das Probabilidades II", "periodo": 4, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD233", "opcoes": [] }
+    ]},
+    { "codigo": "MAD365", "nome": "Demografia", "periodo": 4, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD233", "opcoes": [] }
+    ]},
+    { "codigo": "MAD366", "nome": "Matemática Financeira", "periodo": 4, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAC118", "opcoes": [["MAW111","MAW121"], ["MAW121","MAW126"], ["MAE111"]] }
+    ]},
+
+    { "codigo": "ACA113", "nome": "Introdução à Administração", "periodo": 5, "creditos": 4.0, "cht": 60, "chp": 0, "che": 0, "requisitos": [] },
+    { "codigo": "IUP416", "nome": "Direito Social e Legislação de Seguros", "periodo": 5, "creditos": 4.0, "cht": 60, "chp": 0, "che": 0, "requisitos": [] },
+    { "codigo": "MAD353", "nome": "Matemática Atuarial I", "periodo": 5, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD365", "opcoes": [["MAD233"]] },
+      { "tipo": "P", "alvo": "MAD366", "opcoes": [] }
+    ]},
+    { "codigo": "MAD357", "nome": "Análise de Regressão", "periodo": 5, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD351", "opcoes": [] },
+      { "tipo": "P", "alvo": "MAE125", "opcoes": [["MAA122"]] }
+    ]},
+    { "codigo": "MAD361", "nome": "Inferência Estatística II", "periodo": 5, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD351", "opcoes": [] }
+    ]},
+    { "codigo": "MAD364", "nome": "Processos Estocásticos", "periodo": 5, "creditos": 5.0, "cht": 60, "chp": 30, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD352", "opcoes": [] }
+    ]},
+
+    { "codigo": "ACC114", "nome": "Introdução à Contabilidade", "periodo": 6, "creditos": 4.0, "cht": 60, "chp": 0, "che": 0, "requisitos": [] },
+    { "codigo": "MAD360", "nome": "Estatística Computacional", "periodo": 6, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAB121", "opcoes": [["ICP121"]] },
+      { "tipo": "P", "alvo": "MAD351", "opcoes": [] }
+    ]},
+    { "codigo": "MAD363", "nome": "Matemática Atuarial II", "periodo": 6, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD353", "opcoes": [] }
+    ]},
+    { "codigo": "MAD478", "nome": "Teoria do Risco", "periodo": 6, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD352", "opcoes": [] }
+    ]},
+    { "codigo": "MAD484", "nome": "Análise Estatística Multivariada", "periodo": 6, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD357", "opcoes": [] }
+    ]},
+    { "codigo": "MAD486", "nome": "Técnicas de Amostragem", "periodo": 6, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD351", "opcoes": [] }
+    ]},
+
+    { "codigo": "IEE115", "nome": "Economia", "periodo": 7, "creditos": 4.0, "cht": 60, "chp": 0, "che": 0, "requisitos": [] },
+    { "codigo": "MAD485", "nome": "Análise de Séries Temporais", "periodo": 7, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD357", "opcoes": [] }
+    ]},
+    { "codigo": "MAD490", "nome": "Práticas Atuariais em Seguros", "periodo": 7, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD478", "opcoes": [] }
+    ]},
+    { "codigo": "MAD497", "nome": "Teoria da Credibilidade", "periodo": 7, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD351", "opcoes": [] }
+    ]},
+
+    { "codigo": "MAD473", "nome": "Práticas Atuariais em Pensões", "periodo": 8, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD353", "opcoes": [] }
+    ]},
+    { "codigo": "MAD491", "nome": "Tarifação de Seguros", "periodo": 8, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD357", "opcoes": [["MAD490"]] },
+      { "tipo": "P", "alvo": "MAD478", "opcoes": [["MAD490"]] }
+    ]},
+    { "codigo": "MAD492", "nome": "Gerência Financeira de Reservas Técnicas", "periodo": 8, "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "EAE115", "opcoes": [["IEE115"]] },
+      { "tipo": "P", "alvo": "MAD366", "opcoes": [] }
+    ]},
+    { "codigo": "MADX02", "nome": "Projeto em Ciências Atuariais", "periodo": 8, "creditos": 5.0, "cht": 0, "chp": 90, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD363", "opcoes": [] }
+    ]},
+
+    { "codigo": "ACC413", "nome": "Aspectos Contábeis em Empresas Seguradoras", "periodo": "optativa", "creditos": 4.0, "cht": 60, "chp": 0, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "ACC244", "opcoes": [] }
+    ]},
+    { "codigo": "LEB599", "nome": "Estudos da Língua Brasileira de Sinais I", "periodo": "optativa", "creditos": 4.0, "cht": 60, "chp": 0, "che": 0, "requisitos": [] },
+    { "codigo": "MAD474", "nome": "Teoria da Decisão", "periodo": "optativa", "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD351", "opcoes": [] }
+    ]},
+    { "codigo": "MAD495", "nome": "Análise de Sobrevivência", "periodo": "optativa", "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD357", "opcoes": [] }
+    ]},
+    { "codigo": "MAD496", "nome": "Tópicos Especiais em Atuária", "periodo": "optativa", "creditos": 4.0, "cht": 45, "chp": 15, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAD363", "opcoes": [] }
+    ]},
+    { "codigo": "MAWX01", "nome": "Monitoria I", "periodo": "optativa", "creditos": 2.0, "cht": 0, "chp": 60, "che": 0, "requisitos": [] },
+    { "codigo": "MAWX02", "nome": "Monitoria II", "periodo": "optativa", "creditos": 2.0, "cht": 0, "chp": 60, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAWX01", "opcoes": [] }
+    ]},
+    { "codigo": "MAWX03", "nome": "Monitoria III", "periodo": "optativa", "creditos": 2.0, "cht": 0, "chp": 60, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAWX02", "opcoes": [] }
+    ]},
+    { "codigo": "MAWX04", "nome": "Monitoria IV", "periodo": "optativa", "creditos": 2.0, "cht": 0, "chp": 60, "che": 0, "requisitos": [
+      { "tipo": "P", "alvo": "MAWX03", "opcoes": [] }
+    ]},
+    { "codigo": "MAWZ50", "nome": "Atividade Curricular de Extensão", "periodo": "optativa", "creditos": 0.0, "cht": 0, "chp": 0, "che": 400, "requisitos": [] }
+  ]
+}

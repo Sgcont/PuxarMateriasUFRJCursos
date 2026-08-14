@@ -1,0 +1,10 @@
+{
+  "curriculos": [
+    {
+      "id": "ciencias-atuariais",
+      "nome": "Ciências Atuariais",
+      "instituicao": "IM - UFRJ",
+      "arquivo": "courses/ciencias-atuariais.json"
+    }
+  ]
+}

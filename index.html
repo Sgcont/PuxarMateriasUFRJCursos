@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tranca? — o que eu posso cursar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">§</span>
+    <div>
+      <h1>tranca<span class="q">?</span></h1>
+      <p class="tagline">o SIGA não te conta o que você pode cursar. isso conta.</p>
+    </div>
+  </div>
+  <div class="topbar-controls">
+    <label for="curriculo-select">currículo</label>
+    <select id="curriculo-select"></select>
+  </div>
+</header>
+
+<section class="ledger-summary" id="summary">
+  <!-- preenchido via JS -->
+</section>
+
+<main id="periods">
+  <!-- preenchido via JS -->
+</main>
+
+<aside id="detail-panel" class="detail-panel hidden">
+  <button id="detail-close" class="detail-close" aria-label="fechar">×</button>
+  <div id="detail-content"></div>
+</aside>
+<div id="detail-backdrop" class="detail-backdrop hidden"></div>
+
+<footer class="site-footer">
+  <p>dados extraídos manualmente do SIGA · sem vínculo oficial com a UFRJ · <a href="https://github.com/Sgcont" target="_blank" rel="noopener">github.com/Sgcont</a></p>
+  <p class="footer-note">achou um requisito errado? abra uma issue ou mande um PR com o currículo do seu curso — o formato dos dados está no README.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
