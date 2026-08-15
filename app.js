@@ -6,6 +6,14 @@ const state = {
   disciplinas: [],       // array bruto do JSON
   byCode: new Map(),     // codigo -> disciplina
   feitas: new Set(),     // codigos marcados como concluídos
+  selecionada: null,     // codigo da disciplina com o painel de detalhe aberto
+};
+
+const LABEL_PERIODO = {
+  "optativa": "optativas",
+  "optativa-humanidades": "optativas · humanidades",
+  "optativa-condicionada": "optativas · escolha condicionada",
+  "optativa-restrita": "optativas · escolha restrita",
 };
 
 const STORAGE_PREFIX = "tranca-ufrj:feitas:";
@@ -33,6 +41,7 @@ async function loadCurriculo(path) {
   state.disciplinas = data.disciplinas;
   state.byCode = new Map(data.disciplinas.map(d => [d.codigo, d]));
   state.feitas = loadFeitas(data.id);
+  state.selecionada = null;
   render();
 }
 
@@ -109,9 +118,11 @@ function renderSummary() {
 function renderPeriods() {
   const periods = [...new Set(state.disciplinas.map(d => d.periodo))]
     .sort((a, b) => {
-      if (a === "optativa") return 1;
-      if (b === "optativa") return -1;
-      return a - b;
+      const aNum = typeof a === "number", bNum = typeof b === "number";
+      if (aNum && bNum) return a - b;
+      if (aNum) return -1;
+      if (bNum) return 1;
+      return a.localeCompare(b);
     });
 
   const main = document.getElementById("periods");
@@ -121,7 +132,7 @@ function renderPeriods() {
     const disciplinas = state.disciplinas.filter(d => d.periodo === p);
     const col = document.createElement("div");
     col.className = "period-col";
-    const label = p === "optativa" ? "optativas" : `${p}º período`;
+    const label = typeof p === "number" ? `${p}º período` : (LABEL_PERIODO[p] || p);
     const totalCred = disciplinas.reduce((s, d) => s + d.creditos, 0);
     col.innerHTML = `
       <div class="period-head">
@@ -134,12 +145,15 @@ function renderPeriods() {
     disciplinas.forEach(d => list.appendChild(courseCard(d)));
     main.appendChild(col);
   });
+
+  if (state.selecionada) applyHighlights(state.selecionada);
 }
 
 function courseCard(d) {
   const status = statusDisciplina(d.codigo);
   const li = document.createElement("li");
   li.className = `course-card status-${status}`;
+  li.dataset.codigo = d.codigo;
   li.innerHTML = `
     <span class="stamp ${status}">${stampLabel(status)}</span>
     <div class="course-row">
@@ -217,12 +231,13 @@ function openDetail(cod) {
       <input type="checkbox" id="detail-check" ${state.feitas.has(cod) ? "checked" : ""}/>
       já cursei / passei nessa
     </label>
-    <div class="detail-section">
+    <p class="highlight-note">os cartões correspondentes também ficam marcados na grade, atrás deste painel.</p>
+    <div class="detail-section reqs">
       <h4>pré-requisitos</h4>
       ${reqsHtml}
     </div>
-    <div class="detail-section">
-      <h4>o que essa disciplina destrava</h4>
+    <div class="detail-section unlocks">
+      <h4>o que essa disciplina destrava / tranca</h4>
       ${destravaHtml}
     </div>
   `;
@@ -230,11 +245,50 @@ function openDetail(cod) {
 
   document.getElementById("detail-panel").classList.remove("hidden");
   document.getElementById("detail-backdrop").classList.remove("hidden");
+
+  state.selecionada = cod;
+  applyHighlights(cod);
 }
 
 function closeDetail() {
   document.getElementById("detail-panel").classList.add("hidden");
   document.getElementById("detail-backdrop").classList.add("hidden");
+  state.selecionada = null;
+  clearHighlights();
+}
+
+// ---------- destaque na grade ----------
+// pinta, direto nos cartões, quais matérias essa disciplina precisa (azul)
+// e quais ela destrava/tranca caso não seja feita (âmbar).
+function clearHighlights() {
+  document.querySelectorAll(".course-card.is-selected, .course-card.highlight-req, .course-card.highlight-unlock")
+    .forEach(el => el.classList.remove("is-selected", "highlight-req", "highlight-unlock"));
+}
+
+function applyHighlights(cod) {
+  clearHighlights();
+  const d = state.byCode.get(cod);
+  if (!d) return;
+
+  const cardFor = c => document.querySelector(`.course-card[data-codigo="${CSS.escape(c)}"]`);
+
+  const selEl = cardFor(cod);
+  if (selEl) selEl.classList.add("is-selected");
+
+  quemDestrava(cod).forEach(x => {
+    const el = cardFor(x.codigo);
+    if (el) el.classList.add("highlight-unlock");
+  });
+
+  const reqCodes = new Set();
+  d.requisitos.forEach(r => {
+    if (state.byCode.has(r.alvo)) reqCodes.add(r.alvo);
+    r.opcoes.forEach(g => g.forEach(c => { if (state.byCode.has(c)) reqCodes.add(c); }));
+  });
+  reqCodes.forEach(c => {
+    const el = cardFor(c);
+    if (el) el.classList.add("highlight-req");
+  });
 }
 
 init();
