@@ -1,0 +1,3523 @@
+{
+  "id": "ciencia-da-computacao",
+  "nome": "Ciência da Computação (BCC)",
+  "instituicao": "Instituto de Matemática / DCC - UFRJ",
+  "fonte": "SIGA UFRJ - Distribuição Curricular (atualizado 14/10/2025)",
+  "observacao": "Requisitos do tipo P = pré-requisito (precisa ter sido aprovado antes). C = co-requisito (pode ser cursado junto). Quando o código exigido não existe neste currículo, as opções abaixo dele são as equivalências aceitas pelo SIGA — geralmente uma delas é a disciplina real deste curso. 'Atividades Acadêmicas Optativas/Livre Escolha' (bolsões genéricos de crédito) não entram na lista.",
+  "disciplinas": [
+    {
+      "codigo": "ICP131",
+      "nome": "Programação de Computadores I",
+      "periodo": 1,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP132",
+      "nome": "Processos de Software",
+      "periodo": 1,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP133",
+      "nome": "Fund de Sistemas de Computação",
+      "periodo": 1,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP134",
+      "nome": "Números Inteiros Criptografia",
+      "periodo": 1,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP135",
+      "nome": "Projeto de Carreira",
+      "periodo": 1,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP136",
+      "nome": "Introd Pensamento Dedutivo",
+      "periodo": 1,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICPX06",
+      "nome": "Atividades Complementares Bcc",
+      "periodo": 1,
+      "creditos": 2.0,
+      "cht": 0,
+      "chp": 90,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICPZ55",
+      "nome": "Ativ Curricular Extensão - Bcc",
+      "periodo": 1,
+      "creditos": 0.0,
+      "cht": 0,
+      "chp": 0,
+      "che": 320,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP141",
+      "nome": "Programação de Computadores II",
+      "periodo": 2,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP131",
+          "opcoes": [
+            [
+              "ICP037",
+              "ICP121"
+            ],
+            [
+              "ICP037",
+              "MAB124"
+            ],
+            [
+              "ICP037",
+              "ICP124"
+            ],
+            [
+              "ICP037",
+              "MAB114"
+            ],
+            [
+              "ICP037",
+              "MAB121"
+            ],
+            [
+              "ICP037",
+              "MAW112"
+            ],
+            [
+              "ICP037",
+              "ICP114"
+            ],
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "ICP120"
+            ],
+            [
+              "MAB120"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP142",
+      "nome": "Organização de Dados I",
+      "periodo": 2,
+      "creditos": 2.0,
+      "cht": 15,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP143",
+      "nome": "Projeto Prático",
+      "periodo": 2,
+      "creditos": 2.0,
+      "cht": 15,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP131",
+          "opcoes": [
+            [
+              "ICP037",
+              "ICP121"
+            ],
+            [
+              "ICP037",
+              "MAB124"
+            ],
+            [
+              "ICP037",
+              "ICP124"
+            ],
+            [
+              "ICP037",
+              "MAB114"
+            ],
+            [
+              "ICP037",
+              "MAB121"
+            ],
+            [
+              "ICP037",
+              "MAW112"
+            ],
+            [
+              "ICP037",
+              "ICP114"
+            ],
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "ICP120"
+            ],
+            [
+              "MAB120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP132",
+          "opcoes": [
+            [
+              "MAB112"
+            ],
+            [
+              "ICP112"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP133",
+          "opcoes": [
+            [
+              "ICP111"
+            ],
+            [
+              "MAB111"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP144",
+      "nome": "Matemática Discreta",
+      "periodo": 2,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP134",
+          "opcoes": [
+            [
+              "MAB624"
+            ],
+            [
+              "ICP624"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP145",
+      "nome": "Habilidades Sociais p Trabalho",
+      "periodo": 2,
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP135",
+          "opcoes": [
+            [
+              "ICP007"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "MAE111",
+      "nome": "Cálculo Infinitesimal I",
+      "periodo": 2,
+      "creditos": 6.0,
+      "cht": 75,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP115",
+      "nome": "Álgebra Linear Algorítmica",
+      "periodo": 3,
+      "creditos": 5.0,
+      "cht": 60,
+      "chp": 30,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP136",
+          "opcoes": []
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP144",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP116",
+      "nome": "Estruturas de Dados",
+      "periodo": 3,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP237",
+      "nome": "Introd à Modelagem de Sistemas",
+      "periodo": 3,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP132",
+          "opcoes": [
+            [
+              "MAB112"
+            ],
+            [
+              "ICP112"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP238",
+      "nome": "Introd à Computação Numérica",
+      "periodo": 3,
+      "creditos": 2.0,
+      "cht": 15,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP131",
+          "opcoes": [
+            [
+              "ICP037",
+              "ICP121"
+            ],
+            [
+              "ICP037",
+              "MAB124"
+            ],
+            [
+              "ICP037",
+              "ICP124"
+            ],
+            [
+              "ICP037",
+              "MAB114"
+            ],
+            [
+              "ICP037",
+              "MAB121"
+            ],
+            [
+              "ICP037",
+              "MAW112"
+            ],
+            [
+              "ICP037",
+              "ICP114"
+            ],
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "ICP120"
+            ],
+            [
+              "MAB120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP133",
+          "opcoes": [
+            [
+              "ICP111"
+            ],
+            [
+              "MAB111"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAE111",
+          "opcoes": [
+            [
+              "MAC118"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP239",
+      "nome": "Programação Orientada a Objeto",
+      "periodo": 3,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "MAE992",
+      "nome": "Cálculo Integ e Diferencial II",
+      "periodo": 3,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "MAE111",
+          "opcoes": [
+            [
+              "MAC118"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP246",
+      "nome": "Arquitet Comput e Sist Operac",
+      "periodo": 4,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP133",
+          "opcoes": [
+            [
+              "ICP111"
+            ],
+            [
+              "MAB111"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP248",
+      "nome": "Comput Científ e Análise Dados",
+      "periodo": 4,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": []
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP238",
+          "opcoes": []
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAE992",
+          "opcoes": [
+            [
+              "MAC128"
+            ],
+            [
+              "MAE121"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP249",
+      "nome": "Tecnologia e Sociedade",
+      "periodo": 4,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP145",
+          "opcoes": [
+            [
+              "ICP008"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP489",
+      "nome": "Banco de Dados I",
+      "periodo": 4,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP116",
+          "opcoes": [
+            [
+              "MAB116"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "MAD243",
+      "nome": "Estatística e Probabilidade",
+      "periodo": 4,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "MAE121",
+          "opcoes": [
+            [
+              "MAE992"
+            ],
+            [
+              "MAC128"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP123",
+      "nome": "Linguagens Formais",
+      "periodo": 5,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP144",
+          "opcoes": [
+            [
+              "MAB352"
+            ],
+            [
+              "ICP352"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP350",
+      "nome": "Modelagem e Aval de Desempenho",
+      "periodo": 5,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAD243",
+          "opcoes": [
+            [
+              "MAD201"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP351",
+      "nome": "Model Matemát e Computacional",
+      "periodo": 5,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAE992",
+          "opcoes": [
+            [
+              "MAE121"
+            ],
+            [
+              "MAC128"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP353",
+      "nome": "Computadores e Programação",
+      "periodo": 5,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP246",
+          "opcoes": [
+            [
+              "ICP355",
+              "MAB366"
+            ],
+            [
+              "ICP366",
+              "MAB355"
+            ],
+            [
+              "MAB355",
+              "MAB366"
+            ],
+            [
+              "ICP355",
+              "ICP366"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP368",
+      "nome": "Algoritmos e Grafos",
+      "periodo": 5,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP116",
+          "opcoes": [
+            [
+              "MAB116"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP144",
+          "opcoes": [
+            [
+              "MAB352"
+            ],
+            [
+              "ICP352"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP361",
+      "nome": "Programação Concorrente",
+      "periodo": 6,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "ICP240"
+            ],
+            [
+              "MAB240"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP353",
+          "opcoes": [
+            [
+              "MAB353"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP362",
+      "nome": "Redes de Computadores I",
+      "periodo": 6,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP131",
+          "opcoes": [
+            [
+              "ICP037",
+              "ICP121"
+            ],
+            [
+              "ICP037",
+              "MAB124"
+            ],
+            [
+              "ICP037",
+              "ICP124"
+            ],
+            [
+              "ICP037",
+              "MAB114"
+            ],
+            [
+              "ICP037",
+              "MAB121"
+            ],
+            [
+              "ICP037",
+              "MAW112"
+            ],
+            [
+              "ICP037",
+              "ICP114"
+            ],
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "ICP120"
+            ],
+            [
+              "MAB120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP133",
+          "opcoes": [
+            [
+              "MAB111"
+            ],
+            [
+              "ICP111"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAD243",
+          "opcoes": [
+            [
+              "MAD201"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP363",
+      "nome": "Introd Aprendizado de Máquina",
+      "periodo": 6,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP248",
+          "opcoes": [
+            [
+              "MAB231"
+            ],
+            [
+              "ICP231"
+            ],
+            [
+              "ICP230"
+            ],
+            [
+              "MAB230"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAD243",
+          "opcoes": [
+            [
+              "MAD201"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP365",
+      "nome": "Otimização",
+      "periodo": 6,
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP238",
+          "opcoes": [
+            [
+              "ICP231"
+            ],
+            [
+              "MAB230"
+            ],
+            [
+              "ICP230"
+            ],
+            [
+              "MAB231"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP370",
+      "nome": "Lógica e Computabilidade",
+      "periodo": 6,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP123",
+          "opcoes": [
+            [
+              "MAB123"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP472",
+      "nome": "Metodologia da Pesquisa",
+      "periodo": 7,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP249",
+          "opcoes": [
+            [
+              "MAB354"
+            ],
+            [
+              "ICP354"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP473",
+      "nome": "Segurança da Informação",
+      "periodo": 7,
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP353",
+          "opcoes": [
+            [
+              "MAB353"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP362",
+          "opcoes": [
+            [
+              "ICP510"
+            ],
+            [
+              "MAB510"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICPK01",
+      "nome": "Trab Conclusão de Curso Bcc",
+      "periodo": 8,
+      "creditos": 2.0,
+      "cht": 90,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP472",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "FCF108",
+      "nome": "Ética I",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "FCF614",
+      "nome": "Ética II",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "FCF615",
+      "nome": "Ética III",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "FCF616",
+      "nome": "Ética IV",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP101",
+      "nome": "Teoria Direitos Fundamentais",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP110",
+      "nome": "Fund Direitos Humanos",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP120",
+      "nome": "Fund Polít Públicas Dir Hum",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP130",
+      "nome": "Tóp Esp Polít Públ Dir Hum I",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP140",
+      "nome": "Tóp Esp Polít Públ Dir Hum II",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP141",
+      "nome": "Tóp Esp Polít Públ Dir Hum III",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP142",
+      "nome": "Tóp Esp Polít Públ Dir Hum IV",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP143",
+      "nome": "Tóp Esp Polít Públ Dir Hum V",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP144",
+      "nome": "Tóp Esp Polít Públ Dir Hum VI",
+      "periodo": "optativa-humanidades",
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP145",
+      "nome": "Tóp Esp Polít Públ Dir Hum VII",
+      "periodo": "optativa-humanidades",
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP146",
+      "nome": "Dir Hum, Gênero e Sexualidades",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP147",
+      "nome": "Dir Hum e Democracia",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP148",
+      "nome": "Dir Hum, Pens Negro e Racismo",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP149",
+      "nome": "Dir Hum e Meio Ambiente",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP150",
+      "nome": "Dir Hum e Saúde",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP151",
+      "nome": "Dir Hum e Cultura",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP152",
+      "nome": "Dir Hum, Conflit e Territórios",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP153",
+      "nome": "Dir Hum e Trabalho",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP154",
+      "nome": "Dir Hum e Sistema de Justiça",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP155",
+      "nome": "Dir Hum e Movimentos Sociais",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP156",
+      "nome": "Dir Hum, Globalização e Tecnol",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP157",
+      "nome": "Dir Hum, Violência e Democrac",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP158",
+      "nome": "Dir Hum e Polít Internacional",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP159",
+      "nome": "Dir Hum e Desigualdade Sociais",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "NEP160",
+      "nome": "Dir Hum na América Latina",
+      "periodo": "optativa-humanidades",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "FIM230",
+      "nome": "Física III - a",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "FIT112",
+          "opcoes": [
+            [
+              "FIS112"
+            ],
+            [
+              "FIW121"
+            ],
+            [
+              "FIT123"
+            ],
+            [
+              "EEW110"
+            ],
+            [
+              "FIW125"
+            ],
+            [
+              "FIT111"
+            ],
+            [
+              "FIT113"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAC128",
+          "opcoes": [
+            [
+              "MAW116",
+              "MAW231"
+            ],
+            [
+              "MAE992"
+            ],
+            [
+              "MAC123"
+            ],
+            [
+              "MAC124"
+            ],
+            [
+              "MAE121"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "FIM240",
+      "nome": "Física IV - a",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "FIM230",
+          "opcoes": [
+            [
+              "FIM231"
+            ],
+            [
+              "FIN231"
+            ],
+            [
+              "FIW241"
+            ],
+            [
+              "FIW230"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "FIT112",
+      "nome": "Física I - a",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "FIT122",
+      "nome": "Física II - a",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "FIT112",
+          "opcoes": [
+            [
+              "FIT123"
+            ],
+            [
+              "FIT111"
+            ],
+            [
+              "EEW110"
+            ],
+            [
+              "FIS112"
+            ],
+            [
+              "FIT113"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAC118",
+          "opcoes": [
+            [
+              "MAW111",
+              "MAW121"
+            ],
+            [
+              "MAW121",
+              "MAW126"
+            ],
+            [
+              "MAC106",
+              "MAC113"
+            ],
+            [
+              "MAC113"
+            ],
+            [
+              "MAE111"
+            ],
+            [
+              "MAC114"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP005",
+      "nome": "Ética em Computação",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP006",
+      "nome": "Internet das Coisas",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP246",
+          "opcoes": [
+            [
+              "ICP355",
+              "MAB366"
+            ],
+            [
+              "ICP366",
+              "MAB355"
+            ],
+            [
+              "MAB355",
+              "MAB366"
+            ],
+            [
+              "ICP355",
+              "ICP366"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP362",
+          "opcoes": [
+            [
+              "ICP510"
+            ],
+            [
+              "MAB510"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP009",
+      "nome": "Sist Colaborat e Comput Social",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP010",
+      "nome": "Web Semântica",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP011",
+      "nome": "Tóp Esp em Ciência de Dados I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP363",
+          "opcoes": [
+            [
+              "MAB004"
+            ],
+            [
+              "ICP004"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP012",
+      "nome": "Tóp Esp em Ciência de Dados II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP363",
+          "opcoes": [
+            [
+              "MAB004"
+            ],
+            [
+              "ICP004"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP013",
+      "nome": "Séries e Transformadas Comput",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAE992",
+          "opcoes": [
+            [
+              "MAE121"
+            ],
+            [
+              "MAC128"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP014",
+      "nome": "Comput Científ Equaç Dif Ordin",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP248",
+          "opcoes": [
+            [
+              "ICP230"
+            ],
+            [
+              "MAB231"
+            ],
+            [
+              "MAB230"
+            ],
+            [
+              "ICP231"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP351",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP015",
+      "nome": "Comput Científ Equaç Dif Parc",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP014",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP016",
+      "nome": "Introd Métod Elementos Finitos",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP248",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP017",
+      "nome": "Otimização Linear",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP365",
+          "opcoes": [
+            [
+              "MAB232"
+            ],
+            [
+              "ICP232"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP018",
+      "nome": "Otimização Não Linear",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP365",
+          "opcoes": [
+            [
+              "ICP232"
+            ],
+            [
+              "MAB232"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP019",
+      "nome": "Álgebra Linear Aplicada",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP248",
+          "opcoes": [
+            [
+              "ICP231"
+            ],
+            [
+              "MAB231"
+            ],
+            [
+              "MAB230"
+            ],
+            [
+              "ICP230"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP020",
+      "nome": "Engenharia de Software",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "MAB535"
+            ],
+            [
+              "ICP535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP021",
+      "nome": "Tóp Esp em Engenharia Dados I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP022",
+      "nome": "Tóp Esp em Engenharia Dados II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP023",
+      "nome": "Gestão de Projetos",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "MAB535"
+            ],
+            [
+              "ICP535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP024",
+      "nome": "Análise e Projeto de Sistemas",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "MAB535"
+            ],
+            [
+              "ICP535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP025",
+      "nome": "Computação em Nuvem",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP246",
+          "opcoes": [
+            [
+              "ICP355",
+              "MAB366"
+            ],
+            [
+              "ICP366",
+              "MAB355"
+            ],
+            [
+              "MAB355",
+              "MAB366"
+            ],
+            [
+              "ICP355",
+              "ICP366"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP362",
+          "opcoes": [
+            [
+              "ICP510"
+            ],
+            [
+              "MAB510"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP026",
+      "nome": "Redes de Computadores II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP362",
+          "opcoes": [
+            [
+              "ICP510"
+            ],
+            [
+              "MAB510"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP027",
+      "nome": "Criptografia",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP131",
+          "opcoes": [
+            [
+              "ICP037",
+              "ICP121"
+            ],
+            [
+              "ICP037",
+              "MAB124"
+            ],
+            [
+              "ICP037",
+              "ICP124"
+            ],
+            [
+              "ICP037",
+              "MAB114"
+            ],
+            [
+              "ICP037",
+              "MAB121"
+            ],
+            [
+              "ICP037",
+              "MAW112"
+            ],
+            [
+              "ICP037",
+              "ICP114"
+            ],
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "ICP120"
+            ],
+            [
+              "MAB120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP134",
+          "opcoes": [
+            [
+              "ICP624"
+            ],
+            [
+              "MAB624"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP028",
+      "nome": "Tóp Esp em Arquitetura Comput",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP246",
+          "opcoes": [
+            [
+              "ICP355",
+              "MAB366"
+            ],
+            [
+              "ICP366",
+              "MAB355"
+            ],
+            [
+              "MAB355",
+              "MAB366"
+            ],
+            [
+              "ICP355",
+              "ICP366"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP029",
+      "nome": "Empreendedorismo e Inovação",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP145",
+          "opcoes": [
+            [
+              "ICP008"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP030",
+      "nome": "Governança e Gestão de Dados",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP031",
+      "nome": "Tóp Esp em Comp Científica I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP351",
+          "opcoes": []
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP365",
+          "opcoes": [
+            [
+              "ICP232"
+            ],
+            [
+              "MAB232"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP032",
+      "nome": "Tóp Esp em Comp Científica II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP351",
+          "opcoes": []
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP365",
+          "opcoes": [
+            [
+              "MAB232"
+            ],
+            [
+              "ICP232"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP034",
+      "nome": "Análise de Redes Sociais",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP035",
+      "nome": "Tóp Esp em Teoria da Comput I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP116",
+          "opcoes": [
+            [
+              "MAB116"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP144",
+          "opcoes": [
+            [
+              "MAB352"
+            ],
+            [
+              "ICP352"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP036",
+      "nome": "Tóp Esp em Teoria da Comput II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP116",
+          "opcoes": [
+            [
+              "MAB116"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP144",
+          "opcoes": [
+            [
+              "MAB352"
+            ],
+            [
+              "ICP352"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP038",
+      "nome": "Fundamentos Processo Negócio",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP132",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP041",
+      "nome": "Oficina de Desenv Software I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "ICP535"
+            ],
+            [
+              "MAB535"
+            ],
+            [
+              "ICP533"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP042",
+      "nome": "Oficina de Desenv Software II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "MAB535"
+            ],
+            [
+              "ICP535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP051",
+      "nome": "Tóp Esp em Eng de Software I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "ICP535"
+            ],
+            [
+              "MAB535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP052",
+      "nome": "Tóp Esp em Eng de Software II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "ICP535"
+            ],
+            [
+              "MAB535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP061",
+      "nome": "Desenvolvimento Web I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "MAB240"
+            ],
+            [
+              "ICP240"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP062",
+      "nome": "Desenvolvimento Web II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "MAB240"
+            ],
+            [
+              "ICP240"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP071",
+      "nome": "Tóp Esp em Sist Computacion I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP361",
+          "opcoes": [
+            [
+              "ICP117"
+            ],
+            [
+              "MAB117"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP072",
+      "nome": "Tóp Esp em Sist Computacion II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP362",
+          "opcoes": [
+            [
+              "ICP510"
+            ],
+            [
+              "MAB510"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP081",
+      "nome": "Oficina de Teconologia I",
+      "periodo": "optativa-condicionada",
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "MAB240"
+            ],
+            [
+              "ICP240"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP082",
+      "nome": "Oficina de Teconologia II",
+      "periodo": "optativa-condicionada",
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "ICP240"
+            ],
+            [
+              "MAB240"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP083",
+      "nome": "Oficina de Teconologia III",
+      "periodo": "optativa-condicionada",
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "MAB240"
+            ],
+            [
+              "ICP240"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP084",
+      "nome": "Oficina de Teconologia IV",
+      "periodo": "optativa-condicionada",
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "MAB240"
+            ],
+            [
+              "ICP240"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP085",
+      "nome": "Oficina de Teconologia V",
+      "periodo": "optativa-condicionada",
+      "creditos": 2.0,
+      "cht": 30,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP141",
+          "opcoes": [
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "MAB120"
+            ],
+            [
+              "ICP120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP239",
+          "opcoes": [
+            [
+              "MAB240"
+            ],
+            [
+              "ICP240"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP091",
+      "nome": "Tóp Esp em Ciência Comput I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP092",
+      "nome": "Tóp Esp em Ciência Comput II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP093",
+      "nome": "Tóp Esp em Ciência Comput III",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP094",
+      "nome": "Tóp Esp em Ciência Comput IV",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP095",
+      "nome": "Tóp Esp em Ciência Comput V",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP096",
+      "nome": "Lab Análise de Redes Sociais",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP034",
+          "opcoes": []
+        }
+      ]
+    },
+    {
+      "codigo": "ICP100",
+      "nome": "Introd Gestão Estratégica Ti",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP102",
+      "nome": "Tecn para Grandes Vol de Dados",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP103",
+      "nome": "Análise de Risco",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "MAD243",
+          "opcoes": [
+            [
+              "MAD201"
+            ],
+            [
+              "MAD233"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP356",
+      "nome": "Organização de Dados II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP116",
+          "opcoes": [
+            [
+              "MAB116"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP357",
+      "nome": "Data Warehousing e Intel Negóc",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP359",
+      "nome": "Introd ao Suporte à Decisão",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "MAD243",
+          "opcoes": [
+            [
+              "MAD201"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP367",
+      "nome": "Sistemas Distribuídos",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP361",
+          "opcoes": [
+            [
+              "ICP117"
+            ],
+            [
+              "MAB117"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP362",
+          "opcoes": [
+            [
+              "ICP510"
+            ],
+            [
+              "MAB510"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP465",
+      "nome": "Tóp Esp Informática Sociedade",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICP471",
+      "nome": "Compiladores",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP116",
+          "opcoes": [
+            [
+              "MAB116"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP123",
+          "opcoes": [
+            [
+              "MAB123"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP353",
+          "opcoes": [
+            [
+              "MAB353"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP478",
+      "nome": "Métodos Numéricos I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP231",
+          "opcoes": [
+            [
+              "ICP230"
+            ],
+            [
+              "MAB230"
+            ],
+            [
+              "MAB231"
+            ],
+            [
+              "ICP238",
+              "ICP248"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP491",
+      "nome": "Banco de Dados II",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP508",
+      "nome": "Inteligência Artificial",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP368",
+          "opcoes": [
+            [
+              "MAB368"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP518",
+      "nome": "Teoria de Grafos",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP368",
+          "opcoes": [
+            [
+              "MAB368"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP532",
+      "nome": "Mineração de Dados",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP489",
+          "opcoes": [
+            [
+              "MAB489"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAD243",
+          "opcoes": [
+            [
+              "MAD201"
+            ],
+            [
+              "MAD233"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP603",
+      "nome": "Gestão do Conhecimento",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP142",
+          "opcoes": [
+            [
+              "ICP113"
+            ],
+            [
+              "MAB113"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP605",
+      "nome": "Recuperação de Informação",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP116",
+          "opcoes": [
+            [
+              "MAB116"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP606",
+      "nome": "Tóp Esp em Programação",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP368",
+          "opcoes": [
+            [
+              "MAB368"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP616",
+      "nome": "Interação Humano-computador",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "ICP535"
+            ],
+            [
+              "MAB535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP622",
+      "nome": "Program Paralela e Distribuída",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP361",
+          "opcoes": [
+            [
+              "MAB117"
+            ],
+            [
+              "ICP117"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP633",
+      "nome": "Algoritmos de Aproximação",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP368",
+          "opcoes": [
+            [
+              "MAB368"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP636",
+      "nome": "Algoritmos Paralelos",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP368",
+          "opcoes": [
+            [
+              "MAB368"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP638",
+      "nome": "Computação Algébrica",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP131",
+          "opcoes": [
+            [
+              "ICP037",
+              "ICP121"
+            ],
+            [
+              "ICP037",
+              "MAB124"
+            ],
+            [
+              "ICP037",
+              "ICP124"
+            ],
+            [
+              "ICP037",
+              "MAB114"
+            ],
+            [
+              "ICP037",
+              "MAB121"
+            ],
+            [
+              "ICP037",
+              "MAW112"
+            ],
+            [
+              "ICP037",
+              "ICP114"
+            ],
+            [
+              "CMT012",
+              "ICP121"
+            ],
+            [
+              "CMT012",
+              "MAB121"
+            ],
+            [
+              "ICP120"
+            ],
+            [
+              "MAB120"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP134",
+          "opcoes": [
+            [
+              "MAB624"
+            ],
+            [
+              "ICP624"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP639",
+      "nome": "Computação Quântica",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "ICP134",
+          "opcoes": [
+            [
+              "MAB624"
+            ],
+            [
+              "ICP624"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICP640",
+      "nome": "Projeto Teste de Software",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP237",
+          "opcoes": [
+            [
+              "MAB535"
+            ],
+            [
+              "ICP535"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "ICPX03",
+      "nome": "Monitoria I",
+      "periodo": "optativa-condicionada",
+      "creditos": 2.0,
+      "cht": 0,
+      "chp": 90,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "ICPX04",
+      "nome": "Monitoria II",
+      "periodo": "optativa-condicionada",
+      "creditos": 2.0,
+      "cht": 0,
+      "chp": 90,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICPX03",
+          "opcoes": [
+            [
+              "MABX03"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "IEE115",
+      "nome": "Economia",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "LEB599",
+      "nome": "Est da Líng Bras de Sinais I",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 60,
+      "chp": 0,
+      "che": 0,
+      "requisitos": []
+    },
+    {
+      "codigo": "MAE993",
+      "nome": "Cálculo Int e Diferencial III",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "MAE992",
+          "opcoes": [
+            [
+              "MAE121"
+            ],
+            [
+              "MAC128"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "MAE994",
+      "nome": "Cálculo Int e Diferencial IV",
+      "periodo": "optativa-condicionada",
+      "creditos": 4.0,
+      "cht": 45,
+      "chp": 15,
+      "che": 0,
+      "requisitos": [
+        {
+          "tipo": "P",
+          "alvo": "ICP115",
+          "opcoes": [
+            [
+              "MAE115",
+              "MAE125"
+            ],
+            [
+              "MAB115"
+            ]
+          ]
+        },
+        {
+          "tipo": "P",
+          "alvo": "MAE992",
+          "opcoes": [
+            [
+              "MAE121"
+            ],
+            [
+              "MAC128"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
