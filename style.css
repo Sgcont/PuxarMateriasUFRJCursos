@@ -12,6 +12,8 @@
   --locked-dim: #452e2b;
   --done: #d8c58c;
   --done-dim: #45402c;
+  --req-hl: #7d97e0;
+  --unlock-hl: #d8a24a;
   --serif: "Instrument Serif", serif;
   --mono: "IBM Plex Mono", monospace;
 }
@@ -162,6 +164,25 @@ main{
 .course-card.status-ok{ border-color: var(--ok-dim); }
 .course-card.status-locked{ opacity: .82; }
 
+/* destaque quando uma disciplina está selecionada no painel de detalhe */
+.course-card.is-selected{
+  border-color: var(--text) !important;
+  box-shadow: 0 0 0 1px var(--text);
+}
+.course-card.highlight-req{
+  border-color: var(--req-hl) !important;
+  box-shadow: 0 0 0 1px var(--req-hl);
+  background: rgba(125, 151, 224, 0.08);
+}
+.course-card.highlight-unlock{
+  border-color: var(--unlock-hl) !important;
+  box-shadow: 0 0 0 1px var(--unlock-hl);
+  background: rgba(216, 162, 74, 0.08);
+}
+.course-card.highlight-req.highlight-unlock{
+  background: linear-gradient(135deg, rgba(125,151,224,0.1), rgba(216,162,74,0.1));
+}
+
 .course-row{ display:flex; align-items:flex-start; gap:.55rem; }
 .course-check{
   margin-top: .15rem;
@@ -228,6 +249,20 @@ main{
 .detail-section h4{
   font-size: .68rem; text-transform: uppercase; letter-spacing: .1em;
   color: var(--text-faint); margin: 0 0 .5rem;
+  display: flex; align-items: center; gap: .4rem;
+}
+.detail-section h4::before{
+  content: "";
+  width: 8px; height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.detail-section.reqs h4::before{ background: var(--req-hl); }
+.detail-section.unlocks h4::before{ background: var(--unlock-hl); }
+.highlight-note{
+  color: var(--text-faint);
+  font-size: .7rem;
+  margin: -.8rem 0 1rem;
 }
 .req-group{
   border-left: 2px solid var(--hairline);
