@@ -5,6 +5,13 @@
       "nome": "Ciências Atuariais",
       "instituicao": "IM - UFRJ",
       "arquivo": "courses/ciencias-atuariais.json"
+    },
+    {
+      "id": "ciencia-da-computacao",
+      "nome": "Ciência da Computação (BCC)",
+      "instituicao": "IM/DCC - UFRJ",
+      "arquivo": "courses/ciencia-da-computacao.json"
     }
   ]
 }
+
